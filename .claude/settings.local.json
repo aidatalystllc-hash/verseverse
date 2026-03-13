@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cd \"/Users/SarahKim 1/Desktop/poem-generator\" && npx create-next-app@14 . --typescript --tailwind --eslint --app --no-src-dir --import-alias \"@/*\" --yes 2>&1)",
+      "Bash(sudo chmod:*)",
+      "Bash(cd \"/Users/SarahKim 1/Desktop/poem-generator\" && npm_config_cache=/tmp/npm-cache-verse npx create-next-app@14 . --typescript --tailwind --eslint --app --no-src-dir --import-alias \"@/*\" --yes --force 2>&1)",
+      "Bash(cd \"/Users/SarahKim 1/Desktop/poem-generator\" && npm_config_cache=/tmp/npm-cache-verse npm init -y 2>&1)",
+      "Bash(cd \"/Users/SarahKim 1/Desktop/poem-generator\" && npm_config_cache=/tmp/npm-cache-verse npm install next@14 react@18 react-dom@18 typescript @types/node @types/react @types/react-dom tailwindcss postcss autoprefixer jspdf @anthropic-ai/sdk 2>&1)",
+      "Bash(cd \"/Users/SarahKim 1/Desktop/poem-generator\" && npm_config_cache=/tmp/npm-cache-verse npm install eslint eslint-config-next 2>&1)",
+      "Bash(cd \"/Users/SarahKim 1/Desktop/poem-generator\" && npm_config_cache=/tmp/npm-cache-verse npm install 2>&1)",
+      "Bash(cd \"/Users/SarahKim 1/Desktop/poem-generator\" && npm run build 2>&1)"
+    ]
+  }
+}
